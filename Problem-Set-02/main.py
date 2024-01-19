@@ -4,7 +4,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
 
-url = "/home/maruf/Documents/dataset/bank-full.csv"  # Replace with the actual URL or local path
+url = "/home/maruf/Documents/ml-dataset/bank-full.csv"  # Replace with the actual URL or local path
 data = pd.read_csv(url, delimiter=';')
 
 print(data.head())  
